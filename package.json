@@ -1,0 +1,26 @@
+{
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sylvia Prabudy",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "inquirer": "^7.3.3",
+      "uuid": "^8.3.0",
+      "v1": "^1.0.0",
+      "v4": "0.0.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sylviaprabudy/note-taker.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sylviaprabudy/note-taker/issues"
+    },
+    "homepage": "https://github.com/sylviaprabudy/note-taker#readme"
+  }
