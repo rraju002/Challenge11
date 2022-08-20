@@ -17,10 +17,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/sylviaprabudy/note-taker.git"
+      "url": "https://github.com/rraju002/Challenge11"
     },
     "bugs": {
-      "url": "https://github.com/sylviaprabudy/note-taker/issues"
+      "url": "https://github.com/rraju002/Challenge11/issues"
     },
-    "homepage": "https://github.com/sylviaprabudy/note-taker#readme"
+    "homepage": "https://github.com/rraju002/Challenge11#readme"
   }
