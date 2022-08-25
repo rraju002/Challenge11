@@ -1,6 +1,29 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+      {
+        "title": "Groceries",
+        "text": "Milk, Eggs, Bananas, Avocado",
+        "id": "82a85488-cb71-43c9-b22b-0976ca7f5a23"
+      },
+      {
+        "title": "To-Do",
+        "text": "Mow, Post-Office, Laundry",
+        "id": "6d08c18d-abf6-41ad-9af7-867f0598c788"
+      },
+      {
+        "title": "Playlist",
+        "text": "Slide, Helter Skelter, Piggy",
+        "id": "dfdf265b-2a20-4952-814b-289175a3a0c8"
+      },
+      {
+        "title": "dgdfgdf",
+        "text": "ddgdfgdfg",
+        "id": "3"
+      },
+      {
+        "title": "gdggsag",
+        "text": "dgdfgfdg",
+        "id": "4"
+      }
+    ]
+  }
