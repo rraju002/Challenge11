@@ -23,7 +23,7 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // Listener
-router.get('/notes', function (req, res) {
+app.get('/notes', function (req, res) {
     saveData
         .retrieveNotes()
         .then(notes => res.json(notes))
@@ -31,7 +31,7 @@ router.get('/notes', function (req, res) {
 });
 
 // POST request
-router.post('/notes', (req, res) => {
+app.post('/notes', (req, res) => {
     saveData
         .addNote(req.body)
         .then((note) => res.json(note))
@@ -39,23 +39,23 @@ router.post('/notes', (req, res) => {
 });
 
 // Bonus - DELETE request
-router.delete('/notes/:id', function (req, res) {
+app.delete('/notes/:id', function (req, res) {
     saveData
         .deleteNote(req.params.id)
         .then(() => res.json({ ok: true }))
         .catch(err => res.status(500).json(err));
 });
 
-router.get('/notes', (req, res) => {
+app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'));
 });
 
-router.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 // If no matching route is found default to home page
-router.get('*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
